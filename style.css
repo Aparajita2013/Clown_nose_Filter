@@ -1,0 +1,21 @@
+h3{
+    font-size: 35px !important;
+}
+
+.btn-info{
+    font-size: 15px;
+}
+.btn-info:hover{
+    background-color: navy;
+}
+
+canvas{
+    animation-name: clown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clown{
+    from{box-shadow: 1px 1px 38px lightseagreen;}
+    to{box-shadow: 1px 1px 38px darkviolet;}
+}
